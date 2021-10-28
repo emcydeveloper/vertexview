@@ -1,0 +1,31 @@
+html,body {
+    height: 100%;
+    /* border: black 2px solid; */
+   
+    /* background-color: yellow; */
+  }
+  #maincointainer{
+      height:100%;
+      /* border: black 2px solid;  */
+  }
+
+  .header{
+      height: 20%;
+      background-color: blueviolet;
+  }
+
+#main{
+    height: 60%;
+    width: 100%;
+    background-color: beige;
+    border: black 2px solid;
+}
+
+#login{
+    padding: 10px;
+}
+
+.footer{
+    height:20%;
+    background-color: red;
+}
