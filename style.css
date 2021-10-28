@@ -8,21 +8,23 @@ body {
 #maincointainer {
   height: 100%;
   /* border: black 2px solid; */
-  background-color: red;
+  /* background-color: rgb(101, 116, 48); */
   margin: 0px;
   padding: 0px;
 }
 
 #header {
   height: 20%;
-  background-color: blueviolet;
+  background-color: palegreen;
+  text-align: center;
+  padding-top: 20px;
 }
 
 #main {
   /* width: 100%; */
   background-color: rgb(161, 161, 144);
   /* border: black 2px solid; */
-  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  background-image: url("https://i.ytimg.com/vi/mOFoh9FUR8w/maxresdefault.jpg");
   /* Full height */
   height: 75%;
   /* Center and scale the image nicely */
@@ -33,11 +35,16 @@ body {
 
 #login {
   height: 100%;
+  /* background-color: black; */
   /* overflow: scroll; */
+}
+
+#logincol {
+  color: white;
 }
 
 
 .footer {
   height: 5%;
-  background-color: red;
+  background-color: palegreen;
 }

@@ -20,14 +20,45 @@
       </div>
       <div class="container-fluid" id="main">
         <div class="row justify-content-center align-items-center" id="login">
-          <div class="col-sm-10 col-md-8 col-lg-6 border border-primary">
+          <div class="col-sm-10 col-md-8 col-lg-6" id="logincol">
             <form>
               <div class="form-group">
                 <label for="userName">User Name</label>
-                <input type="text" class="form-control col-8" id="userName" placeholder="Enter User Name">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your credentials with anyone else.</small>
+                <input
+                  type="text"
+                  class="form-control col-8"
+                  id="userName"
+                  placeholder="Enter User Name"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your credentials with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="form-control col-8"
+                  id="password"
+                  placeholder="Enter Password"
+                />
+              </div>
+              <div class="form-group" id="btnsignup">
+                <div class="row">
+                  <div class="col-6">
+                    <button type="button" class="btn btn-primary">Login</button>
+                  </div>
+                  <div class="col-6">
+                    <button type="button" class="btn btn-warning">
+                      Signup
+                    </button>
+                  </div>
+                </div>
               </div>
             </form>
+            <a style="font-weight: bolder; color: red" href="#"
+              >Skip and login to site</a
+            >
           </div>
         </div>
       </div>
