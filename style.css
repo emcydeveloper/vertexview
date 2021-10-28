@@ -14,7 +14,7 @@ body {
 }
 
 #header {
-  height: 20%;
+  height: 10%;
   background-color: blueviolet;
 }
 
@@ -24,7 +24,7 @@ body {
   /* border: black 2px solid; */
   background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
   /* Full height */
-  height: 70%;
+  height: 85%;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -38,6 +38,6 @@ body {
 
 
 .footer {
-  height: 10%;
+  height: 5%;
   background-color: red;
 }
