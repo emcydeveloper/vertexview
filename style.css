@@ -1,31 +1,43 @@
-html,body {
-    height: 100%;
-    /* border: black 2px solid; */
-   
-    /* background-color: yellow; */
-  }
-  #maincointainer{
-      height:100%;
-      /* border: black 2px solid;  */
-  }
+html,
+body {
+  height: 100%;
+  /* border: black 2px solid; */
 
-  .header{
-      height: 20%;
-      background-color: blueviolet;
-  }
-
-#main{
-    height: 60%;
-    width: 100%;
-    background-color: beige;
-    border: black 2px solid;
+  /* background-color: yellow; */
+}
+#maincointainer {
+  height: 100%;
+  /* border: black 2px solid; */
+  background-color: red;
+  margin: 0px;
+  padding: 0px;
 }
 
-#login{
-    padding: 10px;
+#header {
+  height: 20%;
+  background-color: blueviolet;
 }
 
-.footer{
-    height:20%;
-    background-color: red;
+#main {
+  /* width: 100%; */
+  background-color: rgb(161, 161, 144);
+  /* border: black 2px solid; */
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  /* Full height */
+  height: 70%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login {
+  height: 100%;
+  overflow: scroll;
+}
+
+
+.footer {
+  height: 10%;
+  background-color: red;
 }
